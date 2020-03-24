@@ -2,7 +2,10 @@
 .metadata/
 .settings/
 .project
-classpath
+.classpath
 
 # Maven output files and directories
 target/
+
+# Compiled class file
+*.class
