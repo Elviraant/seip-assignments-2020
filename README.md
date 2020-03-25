@@ -4,9 +4,9 @@ This is a repository created as a part of the course of Software Enginering in P
 ## Project Structure
 The repository consists of a parent Maven project and a sub-project(module).
 
-⋅⋅⋅[Grades Histogram](gradeshistogram) - creates a histogram based on the frequencies of a given set of grades.
+* [Grades Histogram](gradeshistogram) - creates a histogram based on the frequencies of a given set of grades.
 
-In order to build the module execute the following command in the repository root directory
+In order to build the module execute the following command in the repository root directory:
 ```
 mvn package
 ```
