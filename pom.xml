@@ -6,10 +6,11 @@
   <packaging>pom</packaging>
   
   <name>SEiP assignments</name>
-  <description>This is a project created for the course of Software Engineering in Practice 
-  			   offered by the Department of Management Science and Technology 
-  			   of Athens University of Economics and Business 
-  			   in order to understand and practice on Maven.
+  <description>This is a project created for the course of Software Engineering in Practice
+               offered by the Department of Management Science and Technology 
+  	       of Athens University of Economics and Business 	
+	       in order to understand and practice on Maven.
+	       This is a parent Maven project and includes a sub-module.
   </description>
   
   
