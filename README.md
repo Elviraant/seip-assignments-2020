@@ -1,6 +1,13 @@
 # SEiP Assignments
 This is a repository created as a part of the course of Software Enginering in Practice offered by the Department of Management Science and Technology of Athens University of Economics and Business in order to understand and practice on Maven and other build automation tools.
 
+## Build 
+In order to build this project, download:
+
+1) [Java Development Kit 8](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
+
+2) [Maven](https://maven.apache.org/download.cgi)
+
 ## Project Structure
 The repository consists of a parent Maven project and a sub-project(module).
 
