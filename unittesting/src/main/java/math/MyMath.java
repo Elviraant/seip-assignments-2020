@@ -8,7 +8,7 @@ package math;
 */
 public class MyMath {
 
-	/*
+	/**
 	 * Calculates and returns the factorial 
 	 * of an integer between 0 and 12
 	 * @param an integer
@@ -25,7 +25,7 @@ public class MyMath {
 		}
 	}
 	
-	/*
+	/**
 	 * Calculates whether an integer
 	 * greater than 2 is prime, 
 	 * returns true, if it is 
