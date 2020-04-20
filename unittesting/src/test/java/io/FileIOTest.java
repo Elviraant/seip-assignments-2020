@@ -12,8 +12,8 @@ public class FileIOTest {
 	
 	/*
 	 * A test case that examines
-	 * that normal input gives the
-	 * expected value
+	 * that only Integers input file in readFile
+	 * gives the expected value
 	 */
 	@Test 
 	public void readFileNormalInput() {
@@ -21,12 +21,25 @@ public class FileIOTest {
 		Assert.assertArrayEquals(expectedValues, fIO.readFile(resourcePath + "normal_input.txt"));
 	}
 	
+	/*
+	 * A test case that examines
+	 * that not only Integers 
+	 * input file in readFile
+	 * gives the expected value
+	 */	
+	@Test
+    public void testReadFileContainsInvalidEntries() {
+    	int[] expectedValues = new int[] { 1, 789};
+    	Assert.assertArrayEquals(expectedValues, fIO.readFile(resourcePath + "invalid.txt"));
+    }
+
 	@Rule
 	public ExpectedException thrown = ExpectedException.none();
 	
 	/*
 	 * A test case for the exception 
-	 * caused when a file is empty
+	 * caused in readFile
+	 * when a file is empty
 	 */
 	@Test
 	public void readFileEmpty() {
@@ -37,7 +50,8 @@ public class FileIOTest {
 	
 	/*
 	 * A test case for the exception 
-	 * caused when a file doesn't exist 
+	 * caused in readFile
+	 * when a file doesn't exist 
 	 */	
 	@Test
 	public void readFileNonexistent() {
@@ -45,4 +59,6 @@ public class FileIOTest {
 		thrown.expectMessage("Input file does not exist");
 		fIO.readFile(resourcePath + "nonexistent");
 	}
+	
+	
 }
