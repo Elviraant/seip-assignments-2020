@@ -15,11 +15,13 @@ In order to test the project, the ``` jUnit 4.12 dependency ``` was added in the
       <artifactId>junit</artifactId>
       <version>4.12</version>
       <scope>test</scope>
-     </dependency>
+</dependency>
 ```    
 
 You can simply run the tests using the Maven command  
-``` mvn test ```
+``` 
+mvn test
+```
 
 ## Generate JaCoCo code coverage report 
 

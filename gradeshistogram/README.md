@@ -12,7 +12,7 @@ mvn package
 ```
 ### jFree chart dependency
 
-In order to create the histogram, ``` jfreechart ``` dependency is added in themodule's ``` pom.xml ``` file
+In order to create the histogram, ``` jfreechart ``` dependency is added in the module's ``` pom.xml ``` file
 ```
 <dependency>
       <groupId>org.jfree</groupId>
@@ -23,7 +23,7 @@ In order to create the histogram, ``` jfreechart ``` dependency is added in them
 
 ### Maven assembly plugin
 
-This module uses an one runtime dependency and thus, it is packaged in the main jar (fat-jar) using the ``` maven-assembly-plugin plugin``` in the module's ``` pom.xml ``` file
+This module uses an one runtime dependency and thus, it is packaged in the main jar (fat-jar) using the ``` maven-assembly-plugin ``` plugin in the module's ``` pom.xml ``` file
 
 ```
  <plugin>

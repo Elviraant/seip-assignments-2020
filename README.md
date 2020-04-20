@@ -36,7 +36,7 @@ The tests are executed using the following Maven command
 ```
 mvn test jacoco:report
 ```
-```
+
 You'll also get a test coverage report produced by JaCoCo which is located in the ``` target/site/jacoco ``` of the unittesting module.  
 
 ## Build the project
@@ -76,7 +76,8 @@ In order to generate the code coverage report for the unittesting module, the ``
 The ``` mockito-core ``` dependency is also added into the parent's ``` pom.xml ``` file to help with the creation of some unit tests
 
 
-```<dependency>
+```
+<dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
             <version>2.27.0</version>
@@ -87,6 +88,5 @@ The ``` mockito-core ``` dependency is also added into the parent's ``` pom.xml 
 This project utilizes TravisCI services in other to test and build the application upon each git-push in the repository. In the ``` .travis.yml ```configuration file the script that we'll be executed after each commit is defined and it is the following
 ``` 
 mvn clean package jacoco:report
-
 ```
 If there are no erros, then the build will pass and the badge will be green. Otherwise, it will be red.
