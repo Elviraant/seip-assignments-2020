@@ -30,7 +30,7 @@ The produced jar is located in the target directory and is executed as following
 java -jar gradeshistogram/target/gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies.jar [input_file]
 ```
 ### Unit Testing
-In order to test the project, the ```jUnit 4.12 dependency``` was added in the module's ``` pom.xml ``` file.
+In order to test the project, the ```junit``` was added in the module's ``` pom.xml ``` file.
 
 The tests are executed using the following Maven command
 ```
