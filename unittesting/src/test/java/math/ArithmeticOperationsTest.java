@@ -20,6 +20,16 @@ public class ArithmeticOperationsTest {
 
 	}
 	
+	/* 
+	 * A test that examines a case 
+	 * where the numerator is 0
+	 * in division
+	 */
+	@Test
+	public void testDivideZeroAdNumerator() {
+		Assert.assertEquals(0, ao.divide(0, 2.0), 0.0000001);
+
+	}
 	/*
 	 * A test case for the exception caused when 
 	 * the denominator is zero in division
