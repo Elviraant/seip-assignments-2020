@@ -15,14 +15,4 @@
                offered by the department of Management Science and Technology 
                of the Athens University of Economics and Business.
                The goal is to practice on unit testing using jUnit.</description>
-
-	<dependencies>
-	<!-- https://mvnrepository.com/artifact/junit/junit -->
-	<dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.12</version>
-      <scope>test</scope>
-   </dependency>
-   </dependencies>
 </project>
