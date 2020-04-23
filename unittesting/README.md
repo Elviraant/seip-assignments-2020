@@ -8,15 +8,7 @@ The goal is to practice on unit testing using jUnit and mocks.
 
 ## Test the project
 
-In order to test the project, the ``` junit ``` was added in the module's ``` pom.xml ``` file 
-```
-<dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.12</version>
-      <scope>test</scope>
-</dependency>
-```    
+In order to test the project, the ``` junit ``` and the ``` mockito-core ``` dependencies were added in the parent's ``` pom.xml ``` file.  
 
 You can simply run the tests using the Maven command  
 ``` 
@@ -24,6 +16,8 @@ mvn test
 ```
 
 ## Generate JaCoCo code coverage report 
+
+In order to generate the JaCoCo coverage report, the ``` jacoco-maven-plugin ```was added in the parent's ``` pom.xml ``` file.
 
 You can simply run the tests and get the code coverage report using the Maven command 
 ```

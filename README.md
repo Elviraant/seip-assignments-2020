@@ -30,7 +30,7 @@ The produced jar is located in the target directory and is executed as following
 java -jar gradeshistogram/target/gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies.jar [input_file]
 ```
 ### Unit Testing
-In order to test the project, the ```junit``` was added in the module's ``` pom.xml ``` file.
+This module contains functional code and their respective test cases.
 
 The tests are executed using the following Maven command
 ```
@@ -71,8 +71,20 @@ In order to generate the code coverage report for the unittesting module, the ``
 		</executions>
 </plugin>
 ```
+### jUnit dependency
 
-### Mockito dependecy
+In order to test the project, the ``` junit ``` dependency was added in the parent's ``` pom.xml ``` file
+
+```
+<dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+</dependency>
+```
+
+### Mockito dependency
 The ``` mockito-core ``` dependency is also added into the parent's ``` pom.xml ``` file to help with the creation of some unit tests
 
 
@@ -84,6 +96,7 @@ The ``` mockito-core ``` dependency is also added into the parent's ``` pom.xml 
             <scope>test</scope>
 </dependency>
 ```
+
 ## Continuous Integration service
 This project utilizes TravisCI services in other to test and build the application upon each git-push in the repository. In the ``` .travis.yml ```configuration file the script that we'll be executed after each commit is defined and it is the following
 ``` 
