@@ -50,6 +50,24 @@ public class ArithmeticOperationsTest {
 		
 	}
 	
+	/*
+	 * A test that examines a case where
+	 * y is zero in multiplication
+	 */	
+	@Test
+	public void testMultiplyYAsZero() {
+		Assert.assertEquals(0, ao.multiply(2, 0));		
+	}
+	
+	/*
+	 * A test that examines a case where
+	 * x is zero in multiplication
+	 */	
+	@Test
+	public void testMultiplyXAsZero() {
+		Assert.assertEquals(0, ao.multiply(0, 2));		
+	}
+	
 	@Rule 
 	public ExpectedException thrown = ExpectedException.none();
 	
@@ -63,7 +81,6 @@ public class ArithmeticOperationsTest {
 		thrown.expect(IllegalArgumentException.class);
 		thrown.expectMessage("x & y should be >= 0");
 		ao.multiply(-5, 9);
-		
 	}
 	
 	/*
