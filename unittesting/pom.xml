@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+    <parent>
+      <groupId>gr.aueb.dmst.elvira</groupId>
+      <artifactId>seip2020_practical_assignments</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </parent>
+	<artifactId>unittesting</artifactId>
+	
+	<name>Unit Testing</name>
+	<description>This is a module created as a part of the 3rd assignment 
+               for the course Software Engineering in Practice
+               offered by the department of Management Science and Technology 
+               of the Athens University of Economics and Business.
+               The goal is to practice on unit testing using jUnit.</description>
+</project>
