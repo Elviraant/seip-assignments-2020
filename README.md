@@ -1,5 +1,5 @@
 # SEiP Assignments
-![Build Status](https://travis-ci.com/Elviraant/seip-assignments-2020.svg?token=pzpqKfQedSgCeLFRqpFW&branch=master)
+[![Build Status](https://travis-ci.com/Elviraant/seip-assignments-2020.svg?token=pzpqKfQedSgCeLFRqpFW&branch=master)](https://travis-ci.com/Elviraant/seip-assignments-2020)
 
 This is a repository created as a part of the course of Software Enginering in Practice offered by the Department of Management Science and Technology of Athens University of Economics and Business in order to understand and practice on Maven and other build automation tools.
 
