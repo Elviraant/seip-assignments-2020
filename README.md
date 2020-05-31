@@ -17,6 +17,7 @@ The repository consists of a parent Maven project and a sub-project(module).
 
 * [Unit Testing](unittesting) - contains classes for simple and complex arithmetic operations as well as for input/output operations for files and their respective test classes.
  
+* [Source Code Analzyer](sourcecodeanalyzer) - contains a redesign of a system based on the SOLID design principles by applying the appropriate design patterns.
 ### Grades Histogram
 This module uses an one runtime dependency and thus, it is packaged in the main jar (fat-jar) using the ```maven-assembly-plugin``` plugin.
 
