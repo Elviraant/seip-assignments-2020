@@ -21,7 +21,8 @@ public class SourceCodeAnalyzer {
 	private SourceFileReader fileReader;
 	
 	public SourceCodeAnalyzer(String fileReaderType) {
-		this.fileReader = new SourceFileReader(fileReaderType);
+		SourceFileReaderFactory readerFactory = new SourceFileReaderFactory();
+		this.fileReader = readerFactory.createSourceFileReader(fileReaderType);
 	}
 		
 	public int calculateLOC(String filepath, String analyzerType) throws IOException {
