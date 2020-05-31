@@ -10,11 +10,11 @@ patterns.
 ### Original System Design
 This is the original design of the system containing code smells and violations of design principles.
 
-![original][original_system_class_diagram]
+![original][original_system_class_diagram.PNG]
 ### Current Redesign
 This is the current redesign of the system based on the SOLID principles. This design still contains code smells and violations of design principles.
 
-![current][current_class_diagram]
+![current][current_class_diagram.png]
 ## Design Patterns
 
 The patterns, that are used in the redesign of the original system, are represented in the chapter.
