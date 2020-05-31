@@ -10,12 +10,12 @@ patterns.
 ### Original System Design
 This is the original design of the system containing code smells and violations of design principles.
 
-![original][https://github.com/Elviraant/seip-assignments-2020/blob/development/sourcecodeanalyzer/original_system_class_diagram.PNG]
+![original](https://github.com/Elviraant/seip-assignments-2020/blob/development/sourcecodeanalyzer/original_system_class_diagram.PNG)
 
 ### Current Redesign
 This is the current redesign of the system based on the SOLID principles. This design still contains code smells and violations of design principles.
 
-![current][https://github.com/Elviraant/seip-assignments-2020/blob/development/sourcecodeanalyzer/current_class_diagram.png]
+![current](https://github.com/Elviraant/seip-assignments-2020/blob/development/sourcecodeanalyzer/current_class_diagram.png)
 ## Design Patterns
 
 The patterns, that are used in the redesign of the original system, are represented in the chapter.
