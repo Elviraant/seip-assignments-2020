@@ -4,10 +4,11 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * Retrieves (reads) the contents of a given file.
- * The file can be stored locally or exist on the web.
+ * /**
+ * This is an interface to implement
+ * in order to retrieve (read) the contents 
+ * of several types of files. 
  * @author Elviraant
- *
  */
 public interface SourceFileReader {
 

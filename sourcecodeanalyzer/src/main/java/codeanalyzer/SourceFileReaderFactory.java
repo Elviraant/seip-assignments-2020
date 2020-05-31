@@ -1,5 +1,12 @@
 package codeanalyzer;
 
+/**
+ * This class is used to refer 
+ * to all objects of SourceFileReader
+ * without the client knowing the instance
+ * of the object.
+ * @author Elviraant
+ */
 public class SourceFileReaderFactory {
 
 	public SourceFileReader createSourceFileReader(String type) {

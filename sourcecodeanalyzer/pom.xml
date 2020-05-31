@@ -11,7 +11,7 @@
 	<artifactId>sourcecodeanalyzer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Design Patterns</name>
-	<description>This module contains the code base that will serve as the starting point for the design pattern assignment</description>
+	<description>This module contains the code base the redesign of a system based on the SOLID design principles by applying the appropriate design patterns.</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

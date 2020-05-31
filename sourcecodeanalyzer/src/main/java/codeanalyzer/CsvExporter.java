@@ -5,8 +5,14 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ * This class implements MetricsExporter 
+ * receives metrics and exports them into csv files.
+ * @author Elviraant
+ */
 public class CsvExporter implements MetricsExporter {
 	
+	@Override 
 	public void writeFile(Map<String, Integer> metrics, String filepath) {
 		File outputFile = new File(filepath + ".csv");
 		StringBuilder metricsNames = new StringBuilder();

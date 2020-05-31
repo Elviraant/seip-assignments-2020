@@ -2,6 +2,13 @@ package codeanalyzer;
 
 import java.util.Map;
 
+/**
+ * This class is used to refer 
+ * to all objects of MetricsExporter
+ * without the client knowing the instance
+ * of the object.
+ * @author Elviraant
+ */
 public class MetricsExporterFactory {
 	
 	public MetricsExporter createMetricsExporter(String outputType) {

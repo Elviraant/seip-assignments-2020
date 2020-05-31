@@ -7,7 +7,12 @@ import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
 
-
+/**
+ * This class implements SourceFileReader
+ * in order to retrieve (read) the contents 
+ * of a locally stored files. 
+ * @author Elviraant
+ */
 public class LocalFileReader implements SourceFileReader {
 	
 	/**

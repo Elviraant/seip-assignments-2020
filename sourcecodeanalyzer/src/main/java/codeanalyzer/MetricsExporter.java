@@ -6,11 +6,10 @@ import java.io.IOException;
 import java.util.Map;
 
 /**
- * Exports (writes) the metrics to a given output.
- * The output can be CSV or JSON files.
- *  
+ * This is an interface to implement
+ * in order to export (write) metrics 
+ * to several types of output.  
  * @author Elviraant
- *
  */
 public interface MetricsExporter {
 	

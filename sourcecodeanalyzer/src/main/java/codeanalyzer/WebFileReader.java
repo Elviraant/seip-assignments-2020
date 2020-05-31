@@ -9,6 +9,12 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * This class implements SourceFileReader
+ * in order to retrieve (read) the contents 
+ * of files stored in the web. 
+ * @author Elviraant
+ */
 public class WebFileReader implements SourceFileReader {
 	
 
